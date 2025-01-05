@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="game-box">
+            <h1>Number Guessing Game</h1>
+            <p>Guess a number between 1 and 100</p>
+            <input type="number" id="guessInput" min="1" max="100">
+            <button onclick="checkGuess()">Submit Guess</button>
+            <p id="message"></p>
+            <p id="attempts">Attempts: 0</p>
+            <button onclick="resetGame()" id="resetBtn">New Game</button>
+        </div>
+        <div class="environment">
+            <div class="cloud cloud1"></div>
+            <div class="cloud cloud2"></div>
+            <div class="bird"></div>
+            <div class="tree"></div>
+            <div class="grass"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 

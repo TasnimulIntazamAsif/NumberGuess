@@ -12,6 +12,10 @@ A fun and interactive number guessing game with an animated natural environment 
 - Responsive design
 - New game functionality
 
+![image](https://github.com/user-attachments/assets/41b274c4-45c7-4c92-afe6-b94d30bcd39d)
+
+
+
 ## How to Play
 
 1. Click the "Enter Game" button on the landing page
